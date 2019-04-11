@@ -8,6 +8,10 @@ import re
 import time
 from requests.exceptions import ConnectionError
 from multiprocessing import Pool
+import pymongo
+
+client = pymongo.MongoClient('localhost',connect=False)
+db = client['sougoupic_db']
 
 
 def get_page_index(word,page):
@@ -32,7 +36,14 @@ def parse_page_index(jsonData):
                 'title' : image_title,
                 'url' : image_url
             }
+            save_mongo(dic)
+
             yield dic
+
+def save_mongo(result):
+    if db['pic_table'].insert(result):
+        print('insert mongo success')
+    return None
 
 def download_image(item):
     print(item.get('url'))
