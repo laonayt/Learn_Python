@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23640be2-23de-4b2a-a65f-f8a8062aa053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/.idea/spider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/bilibili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/sendEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/.idea/spider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spider/meizitu.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/meizitu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/xp.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/xp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,24 +24,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider/meizitu.py">
+        <entry file="file://$PROJECT_DIR$/learn/sendEmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="48" column="78" lean-forward="true" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+            <state relative-caret-position="239">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#46#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/sougou_pic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="92" column="59" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="59" />
-              <folding>
-                <element signature="e#47#62#0" expanded="true" />
+                <element signature="e#47#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +48,16 @@
     <findStrings>
       <find>parse</find>
       <find>print</find>
+      <find>make_dir</find>
+      <find>os</find>
+      <find>os.</find>
+      <find>save_dir</find>
+      <find>for</find>
+      <find>saveDir</find>
+      <find>spl</find>
+      <find>make_floder</find>
+      <find>self.fileFloder</find>
+      <find>fileFloder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,6 +70,19 @@
         <option value="$USER_HOME$/Downloads/Spider_crawler-master/Html_parse/Get_proxies.py" />
         <option value="$PROJECT_DIR$/spider/douban_movie.py" />
         <option value="$PROJECT_DIR$/spider/meizitu.py" />
+        <option value="$PROJECT_DIR$/spider/test.py" />
+        <option value="$PROJECT_DIR$/spider/xp_img.py" />
+        <option value="$PROJECT_DIR$/learn/test1.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/movie/movie/items.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/movie/movie/spiders/meiju.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/movie/movie/settings.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/movie/movie/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/pic/pic/items.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/pic/pic/settings.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/pic/pic/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapyLearn/pic/pic/spiders/xh.py" />
+        <option value="$PROJECT_DIR$/spider/xp.py" />
+        <option value="$PROJECT_DIR$/learn/sendEmail.py" />
       </list>
     </option>
   </component>
@@ -93,7 +110,7 @@
             <path>
               <item name="python_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,29 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.meizitu">
-    <configuration name="Get_proxies" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Spider_crawler-master/Html_parse" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Spider_crawler-master/Html_parse/Get_proxies.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.xp">
     <configuration name="douban_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,28 +155,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/douban_movie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="douban_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Spider_crawler-master/Douban" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Spider_crawler-master/Douban/douban_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unsplash_pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,7 +198,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/unsplash_pic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/xp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xp" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.meizitu" />
         <item itemvalue="Python.douban_movie" />
-        <item itemvalue="Python.douban_spider" />
-        <item itemvalue="Python.Get_proxies" />
-        <item itemvalue="Python.unsplash_pic" />
       </list>
     </recent_temporary>
   </component>
@@ -255,24 +272,32 @@
       <option name="presentableId" value="Default" />
       <updated>1554973415365</updated>
       <workItem from="1554973416604" duration="9016000" />
-      <workItem from="1555484955230" duration="9583000" />
+      <workItem from="1555484955230" duration="10794000" />
+      <workItem from="1555744322859" duration="366000" />
+      <workItem from="1555745258689" duration="21771000" />
+      <workItem from="1556006229751" duration="1029000" />
+      <workItem from="1556013357408" duration="9000" />
+      <workItem from="1556014568145" duration="5517000" />
+      <workItem from="1556028446450" duration="48000" />
+      <workItem from="1556069490386" duration="585000" />
+      <workItem from="1556071456517" duration="26000" />
+      <workItem from="1556074517392" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18599000" />
+    <option name="totallyTimeSpent" value="49652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="24" width="1260" height="708" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2914614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48701298" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44967532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.048701297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49188313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -280,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5146104" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -295,23 +320,16 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learn$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1555034007124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Spider_crawler-master/Douban" />
     <SUITE FILE_PATH="coverage/python_learn$meizitu.coverage" NAME="meizitu Coverage Results" MODIFIED="1555494758305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/python_learn$xp.coverage" NAME="xp Coverage Results" MODIFIED="1556028458725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/python_learn$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1556006820283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/python_learn$douban_movie.coverage" NAME="douban_movie Coverage Results" MODIFIED="1555035821043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/python_learn$Get_proxies.coverage" NAME="Get_proxies Coverage Results" MODIFIED="1554977963409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Spider_crawler-master/Html_parse" />
     <SUITE FILE_PATH="coverage/python_learn$unsplash_pic.coverage" NAME="unsplash_pic Coverage Results" MODIFIED="1554976378693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/python_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1555746555885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/Spider_crawler-master/Html_parse/Get_proxies.py" />
     <entry file="file://$USER_HOME$/Downloads/Spider_crawler-master/Douban/douban_spider.py" />
-    <entry file="file://$PROJECT_DIR$/spider/douban_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#168#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/3.5.5/lib/python3.5/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -333,20 +351,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/unsplash_pic.py">
+    <entry file="file://$PROJECT_DIR$/spider/douban_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="69" column="15" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="15" />
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#47#62#0" expanded="true" />
+            <element signature="e#168#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/bilibili.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/xp_img.py" />
+    <entry file="file://$PROJECT_DIR$/spider/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/movie/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/movie/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/movie/spiders/meiju.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/movie/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/my_meiju.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/movie/movie/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/pic/pic/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/pic/pic/spiders/xh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/pic/pic/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/pic/pic/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyLearn/pic/pic/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/xp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="e#48#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/sougou_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="92" column="59" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="59" />
+        <state relative-caret-position="539">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding>
             <element signature="e#47#62#0" expanded="true" />
           </folding>
@@ -355,10 +483,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/meizitu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="48" column="78" lean-forward="true" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+        <state relative-caret-position="539">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
           <folding>
-            <element signature="e#46#68#0" expanded="true" />
+            <element signature="e#47#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/unsplash_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/sendEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#47#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
